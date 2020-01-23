@@ -2,7 +2,7 @@ library(shiny)
 library(tidyverse)
 
 ui <- fluidPage(
-    titlePanel("Wave addition explorer"),
+    titlePanel("Wave composition explorer"),
     sidebarLayout(
         sidebarPanel(width = 2,
             sliderInput("amp_1",
